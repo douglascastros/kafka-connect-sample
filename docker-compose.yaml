@@ -95,7 +95,7 @@ services:
         echo "Launching Kafka Connect worker"
         /etc/confluent/docker/run &
         #
-        sleep infinity  
+        sleep infinity
     extra_hosts:
       - "host.docker.internal:172.17.0.1"
 
