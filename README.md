@@ -1,26 +1,26 @@
-    ## kafka-connect-sample
+## kafka-connect-sample
 
-    ### run image
+### run image
 
-    * docker-compose up -d
-    * docker-compose ps
+* docker-compose up -d
+* docker-compose ps
 
-    ### mysql
+### mysql
 
-    * docker exec -it kafka-connect-sample-mysql-1 bash
-    * mysql -u root -p
-    * password: root
-    * show databases;
-    * use products;
-    * create table products(id int, name varchar(255));
-    * show tables;
-    * insert into products values(1,'mac book air');
-    * insert into products values(2,'iphone 14');
+* docker exec -it kafka-connect-sample-mysql-1 bash
+* mysql -u root -p
+* password: root
+* show databases;
+* use products;
+* create table products(id int, name varchar(255));
+* show tables;
+* insert into products values(1,'mac book air');
+* insert into products values(2,'iphone 14');
 
-    ### control center
+### control center
 
-    * http://localhost:9021
+* http://localhost:9021
 
-    ### kibana
+### kibana
 
-    * http://localhost:5601
+* http://localhost:5601
